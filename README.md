@@ -34,6 +34,22 @@ Este projeto simula a atuação de um Analista de Dados no contexto da Northwind
 
 northwind-bi-dashboard/ │ ├── queries/ # Scripts SQL usados no projeto │ └── top_products.sql │ └── revenue_per_region.sql │ └── sales_by_employee.sql │ ├── scripts/ # Scripts Python auxiliares │ └── export_csv.py │ ├── dashboard/ # Arquivos do Power BI │ └── northwind_dashboard.pbix │ ├── imgs/ # Prints do dashboard │ └── overview.png │ └── top_products.png │ └── README.md # Este arquivo
 
+📦 northwind-analytics
+ ┣ 📂 queries            # Contém os scripts SQL
+ ┃ ┣ 📜 list_products_prices.sql
+ ┃ ┣ 📜 top_selling_products.sql
+ ┣ 📂 analysis          # Contém os scripts Python para análise
+ ┃ ┣ 📜 top_products.py
+ ┃ ┣ 📜 revenue_by_category.py
+ ┣ 📂 notebooks         # Relatórios interativos em Jupyter
+ ┃ ┣ 📜 Top_Products_Analysis.ipynb
+ ┃ ┣ 📜 Revenue_Analysis.ipynb
+ ┣ 📂 images            # Armazena os gráficos gerados
+ ┃ ┣ 📜 top_products.png
+ ┃ ┣ 📜 revenue_by_category.png
+ ┣ 📜 README.md         # Explica o projeto e os insights
+ ┣ 📜 requirements.txt  # Lista pacotes Python necessários
+
 
 ## 📸 Exemplos de Visualizações (CONSTRUÇÃO)
 
