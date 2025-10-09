@@ -10,13 +10,32 @@ Este projeto simula a atuação de um Analista de Dados no contexto da Northwind
 - Exibir capacidade de transformar dados em decisões estratégicas (data storytelling).
 
 
-## Perguntas de Negócio
+## Fundamentos e Métricas Essenciais
 
-1. Quais são os produtos mais vendidos e os que geram mais receita?
-2. Quem são os principais clientes e qual o ticket médio por pedido?
-3. Quais vendedores tiveram o melhor desempenho?
-4. Existe sazonalidade nas vendas?
-5. Quais países ou regiões geram mais receita para a empresa?
+### 📌 Análise de Vendas por Produto
+- Quais são os produtos mais vendidos em quantidade e receita?
+- Há produtos com alta saída mas pouca receita ou o contrário?
+- Evolução das vendas ao longo do tempo por produto.
+
+### 📌 Perfil de Clientes
+- Quem são os clientes que mais compram em volume?
+- Qual o ticket médio por cliente?
+- Aplicação da regra de Pareto: 80% da receita vem de 20% dos clientes?
+
+### 📌 Análise Geográfica
+- Vendas por país e região.
+- Quais regiões apresentam maior potencial de crescimento?
+
+### 📌 Desempenho de Categorias de Produtos
+- Quais categorias geram mais receita?
+- Margem de lucro média por categoria.
+
+### 📌 Análise Básica de Sazonalidade
+- Quais meses ou trimestres concentram maior volume de vendas?
+- Existe sazonalidade evidente?
+
+### 📌 Evolução do Ticket Médio
+- O valor médio por pedido aumenta ou diminui com o tempo?
 
 
 ## 🛠️ Tecnologias Utilizadas
