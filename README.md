@@ -51,21 +51,34 @@ Este projeto simula a atuação de um Analista de Dados no contexto da Northwind
 
 ## 🧩 Estrutura do Projeto
 
-📦 northwind-analytics  
-├── 📂 queries                # Contém os scripts SQL  
-│   ├── 📜 list_products_prices.sql  
-│   └── 📜 top_selling_products.sql  
-├── 📂 analysis              # Scripts Python para análise  
-│   ├── 📜 top_products.py  
-│   └── 📜 revenue_by_category.py  
-├── 📂 notebooks             # Relatórios interativos Jupyter  
-│   ├── 📜 Top_Products_Analysis.ipynb  
-│   └── 📜 Revenue_Analysis.ipynb  
-├── 📂 images                # Gráficos gerados  
-│   ├── 📜 top_products.png  
-│   └── 📜 revenue_by_category.png  
-├── 📜 README.md             # Explica o projeto e os insights  
-└── 📜 requirements.txt      # Pacotes Python necessários  
+northwind-analytics/
+│
+├── data/
+│   └── (dump do banco ou scripts de conexão)
+│
+├── queries/
+│   ├── produtos_top10.sql
+│   ├── produtos_classificacao.sql
+│   ├── produtos_ticket.sql
+│   ├── clientes_volume.sql
+│   ├── clientes_ticket.sql
+│   └── clientes_pareto.sql
+│
+├── notebooks/
+│   ├── etapa1_produtos.ipynb
+│   └── etapa2_clientes.ipynb
+│
+├── scripts/
+│   ├── conexao_postgres.py
+│   ├── visualizacao_produtos.py
+│   ├── visualizacao_clientes.py
+│
+├── images/
+│   ├── produtos_classificacao.png
+│   └── clientes_pareto.png
+│
+└── README.md
+
 
 
 
