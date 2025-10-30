@@ -79,7 +79,19 @@ northwind-analytics/
 │
 └── README.md
 
-
+📦 northwind-analytics  
+├── 📂 queries                # Contém os scripts SQL  
+│   ├── 📜 top_selling_products.sql  
+│   ├── 📜 top_selling_receive.sql  
+│   ├── 📜 list_products_prices.sql  
+│   ├── 📜 list_products_prices.sql  
+│   ├── 📜 list_products_prices.sql  
+│   └── 📜 top_selling_products.sql  
+├── 📂 analysis              # Scripts Python para análise  
+│   ├── 📜 top_products.py  
+│   └── 📜 revenue_by_category.py  
+├── 📂 notebooks             # Relatórios interativos Jupyter  
+│   ├── 📜 Top_Products_Analysis.ipynb
 
 
 ## 📸 Exemplos de Visualizações (CONSTRUÇÃO)
